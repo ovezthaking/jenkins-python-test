@@ -10,7 +10,7 @@ pipeline {
         stage('Build') {
             steps {
                 git branch: 'main', url: 'https://github.com/ovezthaking/jenkins-python-test.git'
-                sh 'python3 ops.py'
+                sh 'python3 operations.py'
             }
         }
         stage('Test') {
