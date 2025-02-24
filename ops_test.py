@@ -19,3 +19,7 @@ def test_mul():
 
 def test_pow():
     assert ops.pow(10, 2) == 100
+
+
+def test_sqrt():
+    assert ops.sqrt(9, 3) == 3
