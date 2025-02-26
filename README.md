@@ -6,7 +6,6 @@ First Jenkins pipeline test
 
 
 ## Installation with Docker
-<br>
 - Install Docker on your local machine.
 - Run this command: docker run -p 8080:8080 -p 50000:50000 -v jenkins_home:/var/jenkins_home jenkins/jenkins:lts-jdk17 (depends on your jdk version)
 - Write down the password that's created for you during this first time set up process: like 2638t821aegd35g6321ai7362s32a2d0
@@ -17,4 +16,4 @@ First Jenkins pipeline test
 - Run command: apt-get update and apt-get install python3 and apt-get install python3-pip to install Python3 and pip within the Docker container
 - Run pip install pytest to install the pytest package that actually runs the unit/integ tests during your test stage within the pipeline
 
-# Tank You!
+# Thank You!
